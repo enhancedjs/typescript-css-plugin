@@ -1,6 +1,6 @@
-# TypeScript Styled Plugin
+# TypeScript Css Plugin
 
-TypeScript server plugin that adds intellisense to [styled component](https://styled-components.com) css strings
+TypeScript server plugin that adds intellisense to [scss-in-template-string](https://styled-components.com)
 
 ![](documentation/preview.gif)
 

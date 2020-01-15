@@ -11,7 +11,7 @@ export interface StyledPluginConfiguration {
 export class ConfigurationManager {
 
     private static readonly defaultConfiguration: StyledPluginConfiguration = {
-        tags: ['styled', 'css', 'extend', 'injectGlobal', 'createGlobalStyle'],
+        tags: ['styled', 'css', 'extend', 'injectGlobal', 'createGlobalStyle', 'scss', 'sass'],
         validate: true,
         lint: {
             emptyRules: 'ignore',
