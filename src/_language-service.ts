@@ -73,7 +73,7 @@ class CompletionsCache {
     }
 }
 
-export class StyledTemplateLanguageService implements TemplateLanguageService {
+export class CssTemplateLanguageService implements TemplateLanguageService {
     private _cssLanguageService?: LanguageService;
     private _scssLanguageService?: LanguageService;
     private _completionsCache = new CompletionsCache();

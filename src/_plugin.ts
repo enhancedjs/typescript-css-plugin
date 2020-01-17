@@ -3,12 +3,12 @@
 import { decorateWithTemplateLanguageService, TemplateSettings } from 'typescript-template-language-service-decorator';
 import * as ts from 'typescript/lib/tsserverlibrary';
 import { ConfigurationManager } from './_configuration';
-import { StyledTemplateLanguageService } from './_language-service';
+import { CssTemplateLanguageService } from './_language-service';
 import { LanguageServiceLogger } from './_logger';
 import { getSubstitutions } from './_substituter';
-import { StyledVirtualDocumentFactory } from './_virtual-document-provider';
+import { CssVirtualDocumentFactory } from './_virtual-document-provider';
 
-export class StyledPlugin {
+export class CssPlugin {
 
     private _logger?: LanguageServiceLogger;
     private readonly _configManager = new ConfigurationManager();
@@ -32,7 +32,7 @@ export class StyledPlugin {
             this.typescript,
             info.languageService,
             info.project,
-            new StyledTemplateLanguageService(this.typescript, this._configManager, new StyledVirtualDocumentFactory(), this._logger),
+            new CssTemplateLanguageService(this.typescript, this._configManager, new CssVirtualDocumentFactory(), this._logger),
             getTemplateSettings(this._configManager),
             { logger: this._logger });
     }

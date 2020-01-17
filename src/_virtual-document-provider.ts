@@ -20,13 +20,13 @@ export interface VirtualDocumentProvider {
  * Wraps content in a top level `:root { }` rule to make css language service happy
  * since styled allows properties to be top level elements.
  */
-export class StyledVirtualDocumentFactory implements VirtualDocumentProvider {
+export class CssVirtualDocumentFactory implements VirtualDocumentProvider {
     private static readonly wrapperPre = ':root{\n';
 
     public createVirtualDocument(
         context: TemplateContext
     ): vscode.TextDocument {
-        const contents = `${StyledVirtualDocumentFactory.wrapperPre}${context.text}\n}`;
+        const contents = `${CssVirtualDocumentFactory.wrapperPre}${context.text}\n}`;
         return {
             uri: 'untitled://embedded.scss',
             languageId: 'scss',
@@ -59,10 +59,10 @@ export class StyledVirtualDocumentFactory implements VirtualDocumentProvider {
     }
 
     public toVirtualDocOffset(offset: number): number {
-        return offset + StyledVirtualDocumentFactory.wrapperPre.length;
+        return offset + CssVirtualDocumentFactory.wrapperPre.length;
     }
 
     public fromVirtualDocOffset(offset: number): number {
-        return offset - StyledVirtualDocumentFactory.wrapperPre.length;
+        return offset - CssVirtualDocumentFactory.wrapperPre.length;
     }
 }
