@@ -1,5 +1,5 @@
 {
-  "name": "typescript-css-plugin",
+  "name": "@tomko/typescript-css-plugin",
   "version": "0.15.0",
   "description": "TypeScript language service plugin that adds IntelliSense for css in template string",
   "keywords": [
