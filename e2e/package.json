@@ -15,6 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^3.3.3333",
-    "typescript-styled-plugin": "file:./.."
+    "@enhancedjs/typescript-css-plugin": "file:./.."
   }
 }

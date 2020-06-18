@@ -1,6 +1,6 @@
 {
-  "name": "@tomko/typescript-css-plugin",
-  "version": "0.15.1",
+  "name": "@enhancedjs/typescript-css-plugin",
+  "version": "0.0.2",
   "description": "TypeScript language service plugin that adds IntelliSense for css in template string",
   "keywords": [
     "TypeScript",
@@ -12,29 +12,29 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomko-team/typescript-css-plugin.git"
+    "url": "https://github.com/enhancedjs/typescript-css-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/tomko-team/typescript-css-plugin/issues"
+    "url": "https://github.com/enhancedjs/typescript-css-plugin/issues"
   },
   "dependencies": {
     "typescript-template-language-service-decorator": "^2.2.0",
-    "vscode-css-languageservice": "^4.0.2",
-    "vscode-languageserver-types": "^3.13.0",
-    "vscode-emmet-helper": "1.2.11"
+    "vscode-css-languageservice": "^4.2.0",
+    "vscode-emmet-helper": "1.2.11",
+    "vscode-languageserver-types": "^3.15.1"
   },
   "files": [
     "lib"
   ],
   "devDependencies": {
-    "@types/chai": "^4.1.4",
+    "@types/chai": "^4.2.11",
     "@types/mocha": "^5.2.4",
-    "@types/node": "^7.0.22",
+    "@types/node": "^7.10.11",
     "chai": "^4.1.2",
-    "glob": "^7.1.2",
+    "glob": "^7.1.6",
     "mocha": "^5.2.0",
-    "tslint": "^5.19.0",
-    "typescript": "^3.6.4"
+    "tslint": "^5.20.1",
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "prepublishOnly": "npm run compile",
