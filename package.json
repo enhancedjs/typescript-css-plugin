@@ -1,6 +1,6 @@
 {
   "name": "@enhancedjs/typescript-css-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TypeScript language service plugin that adds IntelliSense for css in template string",
   "keywords": [
     "TypeScript",
@@ -28,12 +28,12 @@
   ],
   "devDependencies": {
     "@types/chai": "^4.2.11",
-    "@types/mocha": "^5.2.4",
-    "@types/node": "^7.10.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^12.12.47",
     "chai": "^4.1.2",
     "glob": "^7.1.6",
-    "mocha": "^5.2.0",
-    "tslint": "^5.20.1",
+    "mocha": "^8.0.1",
+    "tslint": "^6.1.2",
     "typescript": "^3.9.5"
   },
   "scripts": {
