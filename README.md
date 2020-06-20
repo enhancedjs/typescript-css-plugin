@@ -4,5 +4,5 @@ This is a fork of [typescript-styled-plugin](https://github.com/microsoft/typesc
 
 This package is used by the following VS Code plugins:
 
-* [sass-in-template-string-vscode](https://github.com/enhancedjs/sass-in-template-string-vscode)
-* [html-in-template-string-vscode](https://github.com/enhancedjs/html-in-template-string-vscode)
+* [enhanced.sass-in-template-string](https://github.com/enhancedjs/sass-in-template-string-vscode)
+* [enhanced.html-in-template-string](https://github.com/enhancedjs/html-in-template-string-vscode)
