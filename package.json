@@ -1,6 +1,6 @@
 {
   "name": "@enhancedjs/typescript-css-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript language service plugin that adds IntelliSense for CSS in template strings.",
   "keywords": [
     "TypeScript",
